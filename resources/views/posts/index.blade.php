@@ -1,7 +1,7 @@
 @extends('layouts.master')
 
 @section('content')
-    <h2> List of all Posts</h2>
+    <h2 class="display-4" style="margin-top: 10px"> List of all Posts</h2>
     <hr>
     <div class="row">
         <div class="col-md-9">
@@ -37,7 +37,7 @@
                         <div class="card-header bg-info text-white"> Stats.</div>
                         <div class="card-body">
                         
-                        <p class="card-text"> All Posts: {{$count}}</p>
+                        <p class="card-header"> All Posts: {{$count}}</p>
                         </div>
                     </div>
 

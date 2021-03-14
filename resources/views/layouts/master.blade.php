@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    @include('includes.navbar')
+   
+    
     <link rel="stylesheet" href="{{asset('css/app.css')}}">
 
     <meta charset="UTF-8">
@@ -10,7 +11,8 @@
     <title>{{env('APP_NAME', 'BestBelog')}}</title>
 </head>
 <body>
-   
+    @include('includes.navbar')
+    @include('includes.messages')
     @yield('content');
 </body>
 </html>
